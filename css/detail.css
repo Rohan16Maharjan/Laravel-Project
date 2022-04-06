@@ -37,12 +37,16 @@ a {
 a:hover {
 	color: rgb(64, 255, 64);
 }
-
+h1 {
+	text-align: center;
+	margin-top: 5rem;
+	font-size: 3rem;
+}
 /* Featured */
 .feature {
 	background-color: black;
 	display: grid;
-	grid-template-columns: 1fr 3fr;
+	grid-template-columns: auto 3fr;
 	padding: 0 5rem 0 5rem;
 	gap: 8rem;
 }
@@ -58,17 +62,9 @@ a:hover {
 	text-align: center;
 	margin-top: 2rem;
 }
-
-h1 {
-	text-align: center;
-	margin-top: 5rem;
-	font-size: 3rem;
-}
-
 h1,
 h2 {
 	color: #fff;
-	font-size: 2rem;
 }
 
 .product-details {
@@ -101,7 +97,92 @@ h2 {
 	padding-bottom: 5rem;
 	padding-top: 5rem;
 }
+/* details */
+.detail {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 5rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+.image {
+	border: 1px solid black;
+	background-color: #fff;
+}
+.lap {
+	margin: 150px;
+}
 
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1.2rem;
+}
+.det {
+	color: white;
+}
+
+.text2 {
+	border: 1px solid black;
+	color: black;
+	padding: 5px;
+	background-color: rgb(73, 255, 1);
+	width: 18%;
+}
+
+.cart {
+	color: #fff;
+}
+.text a {
+	border: 1px solid white;
+	color: white;
+	padding: 15px;
+	background-color: black;
+	width: 21%;
+}
+.text a:hover {
+	background-color: darkolivegreen;
+}
+
+/* like */
+.like {
+	padding: 0 5rem 0 5rem;
+}
+.like h3 {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-size: 2rem;
+}
+.might {
+	display: flex;
+	gap: 2rem;
+}
+.might1 {
+	border: 1px solid black;
+	padding: 2rem;
+	margin-bottom: 3rem;
+	transition: all 0.3s;
+}
+.might1:hover {
+	transform: scale(1.1);
+}
+.laa {
+	color: black;
+}
+.product-name {
+	color: black;
+	text-align: center;
+}
+.la,
+.mo,
+.ta,
+.ca {
+	border: 1px solid black;
+}
+.image a img {
+	width: 50%;
+}
 /* footer */
 footer {
 	padding: 0 5rem 0 5rem;
