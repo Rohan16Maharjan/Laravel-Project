@@ -1,0 +1,311 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+.container {
+	/* background-color: rgb(116, 108, 108); */
+	background-color: black;
+	max-width: 100%;
+	/* padding: 1rem 2rem; */
+
+	/* margin-left: 30px; */
+}
+
+#grad1 {
+	background-image: linear-gradient(
+		to right,
+		rgb(55, 56, 55, 0),
+		rgb(43, 44, 43)
+	);
+}
+
+.logo {
+	font-size: 1.3rem;
+	font-weight: 1000;
+	color: #fff;
+}
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+li {
+	list-style: none;
+	margin: 0 3rem;
+}
+
+a {
+	text-decoration: none;
+	padding: 2rem;
+	color: rgb(177, 175, 175);
+}
+a:hover {
+	color: rgb(160, 248, 160);
+}
+
+/* hawa animation */
+.logo h2 span {
+	animation: animate 1.6s linear infinite;
+}
+
+h2 span:nth-child(1) {
+	animation-delay: 0s;
+}
+
+h2 span:nth-child(2) {
+	animation-delay: 0.2s;
+}
+
+h2 span:nth-child(3) {
+	animation-delay: 0.4s;
+}
+
+h2 span:nth-child(4) {
+	animation-delay: 0.6s;
+}
+
+h2 span:nth-child(5) {
+	animation-delay: 0.8s;
+}
+
+h2 span:nth-child(6) {
+	animation-delay: 1s;
+}
+
+h2 span:nth-child(7) {
+	animation-delay: 1.2s;
+}
+
+h2 span:nth-child(8) {
+	animation-delay: 1.4s;
+}
+
+@keyframes animate {
+	0%,
+	80% {
+		color: rgb(160, 248, 160);
+		text-shadow: none;
+	}
+
+	100% {
+		color: rgb(160, 248, 160);
+		text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+			0 0 120px white, 0 0 160px white;
+		/* 0 0 200px rgb(255, 255, 255) ; */
+	}
+}
+
+/* nav sakkiyo */
+
+/* form shit  */
+
+.checkout-title {
+	color: rgb(160, 248, 160);
+	font-size: 40px;
+	background-color: #fff;
+	padding: 2rem 3rem 1rem 3rem;
+	font-weight: 100;
+}
+
+.checkout-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* grid-column-gap: 10px; */
+	grid-gap: 30px;
+	/* margin: 40px auto 80px; */
+	background-color: #fff;
+	padding: 1rem 3rem 1rem 3rem;
+
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+form button[type='submit'] {
+	border-style: none;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.form-group {
+	/* margin-bottom: 20px; */
+	margin: 20px 0 20px 0;
+	font-weight: 100;
+	font-size: 16px;
+	font-family: 'Rubik', sans-serif;
+}
+.half-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 89%;
+	/* box-sizing: inherit; */
+	grid-gap: 10px;
+}
+
+.half-form .form-group {
+	margin: 0 0 0px 0;
+	/* box-sizing: inherit; */
+}
+
+.form-group label {
+	display: block;
+}
+
+.form-group input {
+	width: 80%;
+	padding: 8px;
+	font-size: 16px;
+}
+
+.button-primary {
+	margin-top: 10px;
+	width: 150px;
+	height: 50px;
+	border: none;
+	color: white;
+	background-color: rgb(116, 108, 108);
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0 white;
+	transition: ease-out 0.8s;
+	font-size: 1rem;
+	outline: none;
+	font-weight: bolder;
+}
+
+.button-primary:hover {
+	/* color: rgb(113, 116, 112); */
+	box-shadow: inset 150px 0 0 0 rgb(160, 248, 160);
+	cursor: pointer;
+	/* color: black; */
+}
+/* .formerror {
+    color: red;
+} */
+
+h1.checkout-heading {
+	margin-top: 40px;
+}
+
+/* Your order shit  */
+
+.checkout-table-container {
+	margin-left: 124px;
+}
+
+.h2 {
+	margin-bottom: 28px;
+}
+
+.checkout-table-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* width: 90%; */
+	border-top: 1px solid rgb(83, 83, 83);
+	border-bottom: 1px solid rgb(83, 83, 83);
+	padding: 14px 0;
+	/* margin-right: 10%; */
+}
+
+/* .checkout-table-row,&:last-child {
+border-bottom: 1px solid white;
+} */
+
+.checkout-table-row-left,
+.checkout-table-row-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.checkout-table-row-left {
+	width: 65%;
+}
+
+.checkout-table-row-right {
+	/* width: 24%; */
+	padding-top: 10px;
+}
+
+.checkout-table-img {
+	max-height: 60px;
+	padding-right: 20px;
+}
+
+.checkout-item-details {
+	/* margin-left: 10; */
+	/* padding-left: 10px; */
+}
+
+.checkout-table-description {
+	color: rgb(146, 145, 145);
+	/* font-size: 15px; */
+}
+
+.checkout-table-price {
+	padding-top: 6px;
+}
+
+.checkout-table-quantity {
+	border: 1px solid rgb(99, 98, 98);
+	padding: 4px 12px;
+	margin-right: 5px;
+}
+
+.checkout-totals {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+	padding: 18px 0;
+	line-height: 2;
+}
+.checkout-totals-right {
+	text-align: right;
+}
+
+.checkout-totals-total {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 2.2;
+}
+
+.payment {
+	margin: 20px 0 30px 0;
+}
+
+.button-secondary {
+	background-color: rgb(109, 248, 109);
+	padding: 10px;
+	margin-top: 10px;
+}
+.button-secondary a {
+	font-size: 18px;
+	font-weight: bolder;
+	color: rgb(236, 236, 236);
+	/* padding: 35px 35px; */
+}
+
+.button-secondary a:hover {
+	color: rgb(54, 54, 54);
+}
+
+/* responsive shit  */
+
+@media screen and (max-width: 900px) {
+	.checkout-section {
+		/* position: absolute; */
+		display: block;
+
+		/* align-content: center; */
+	}
+	.checkout-table-container {
+		margin: 0%;
+	}
+}
