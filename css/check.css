@@ -309,3 +309,16 @@ border-bottom: 1px solid white;
 		margin: 0%;
 	}
 }
+
+.tw:hover {
+	color: rgb(0, 255, 234);
+}
+.ins:hover {
+	color: rgb(131, 58, 180);
+}
+.fb:hover {
+	color: rgb(0, 0, 255);
+}
+.you:hover {
+	color: rgb(255, 0, 0);
+}

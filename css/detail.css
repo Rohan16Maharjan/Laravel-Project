@@ -37,6 +37,10 @@ a {
 a:hover {
 	color: rgb(64, 255, 64);
 }
+
+.prod {
+	color: #000;
+}
 h1 {
 	text-align: center;
 	margin-top: 5rem;
@@ -44,7 +48,7 @@ h1 {
 }
 /* Featured */
 .feature {
-	background-color: black;
+	background-color: #fff;
 	display: grid;
 	grid-template-columns: auto 3fr;
 	padding: 0 5rem 0 5rem;
@@ -64,7 +68,7 @@ h1 {
 }
 h1,
 h2 {
-	color: #fff;
+	color: #000;
 }
 
 .product-details {
@@ -120,7 +124,8 @@ h2 {
 	gap: 1.2rem;
 }
 .det {
-	color: white;
+	color: #000;
+	margin-bottom: 10px;
 }
 
 .text2 {
@@ -128,7 +133,7 @@ h2 {
 	color: black;
 	padding: 5px;
 	background-color: rgb(73, 255, 1);
-	width: 18%;
+	width: 20%;
 }
 
 .cart {
@@ -160,7 +165,7 @@ h2 {
 }
 .might1 {
 	border: 1px solid black;
-	padding: 2rem;
+	padding: 1rem;
 	margin-bottom: 3rem;
 	transition: all 0.3s;
 }
@@ -206,4 +211,17 @@ footer {
 }
 .follow {
 	font-size: 1.8rem;
+}
+
+.tw:hover {
+	color: rgb(0, 255, 234);
+}
+.ins:hover {
+	color: rgb(131, 58, 180);
+}
+.fb:hover {
+	color: rgb(0, 0, 255);
+}
+.you:hover {
+	color: rgb(255, 0, 0);
 }

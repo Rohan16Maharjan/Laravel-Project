@@ -11,7 +11,7 @@ input {
 	font-family: 'Poppins', sans-serif;
 }
 .container-box {
-	background-color: black;
+	background-color: #000;
 	max-width: 100%;
 	/* padding: 1rem 2rem; */
 	padding: 0 0 0 2rem;
@@ -265,7 +265,7 @@ form.sign-in-form {
 footer {
 	padding: 0 5rem 0 5rem;
 	background-color: black;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 .ff {
 	display: flex;
@@ -452,4 +452,17 @@ footer {
 		bottom: 28%;
 		left: 50%;
 	}
+}
+
+.tw:hover {
+	color: rgb(0, 255, 234);
+}
+.ins:hover {
+	color: rgb(131, 58, 180);
+}
+.fb:hover {
+	color: rgb(0, 0, 255);
+}
+.you:hover {
+	color: rgb(255, 0, 0);
 }

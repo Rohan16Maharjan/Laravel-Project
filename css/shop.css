@@ -8,10 +8,13 @@ body {
 }
 
 .container {
-	background-color: black;
+	background-color: #000;
 	max-width: 100%;
 	/* padding: 1rem 2rem; */
 	padding: 0 0 0 2rem;
+}
+.context {
+	border-bottom: 2px solid white;
 }
 .logo {
 	font-size: 2.3rem;
@@ -37,10 +40,13 @@ a {
 a:hover {
 	color: rgb(64, 255, 64);
 }
+.prod {
+	color: #000;
+}
 
 /* Featured */
 .feature {
-	background-color: black;
+	background-color: white;
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	padding: 0 5rem 0 5rem;
@@ -67,7 +73,7 @@ h1 {
 
 h1,
 h2 {
-	color: #fff;
+	color: #000;
 	font-size: 2rem;
 }
 
@@ -92,10 +98,10 @@ h2 {
 	margin-bottom: 10px;
 }
 .product-name {
-	color: #fff;
+	color: #000;
 }
 .product-price {
-	color: #fff;
+	color: #000;
 }
 .header {
 	padding-bottom: 5rem;
@@ -105,8 +111,8 @@ h2 {
 /* footer */
 footer {
 	padding: 0 5rem 0 5rem;
-	background-color: black;
-	margin-top: 5px;
+	background-color: #000;
+	margin-top: 5rem;
 }
 .ff {
 	display: flex;
@@ -125,4 +131,16 @@ footer {
 }
 .follow {
 	font-size: 1.8rem;
+}
+.tw:hover {
+	color: rgb(0, 255, 234);
+}
+.ins:hover {
+	color: rgb(131, 58, 180);
+}
+.fb:hover {
+	color: rgb(0, 0, 255);
+}
+.you:hover {
+	color: rgb(255, 0, 0);
 }
