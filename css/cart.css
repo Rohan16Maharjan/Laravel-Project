@@ -33,7 +33,7 @@ body {
 }
 
 .logo:hover {
-	color: var(--color-primary);
+	color: rgb(64, 255, 64);
 }
 
 .navbar-links {

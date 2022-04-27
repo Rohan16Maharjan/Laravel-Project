@@ -133,7 +133,7 @@ h2 {
 	color: black;
 	padding: 5px;
 	background-color: rgb(73, 255, 1);
-	width: 20%;
+	width: 30%;
 }
 
 .cart {
@@ -165,7 +165,7 @@ h2 {
 }
 .might1 {
 	border: 1px solid black;
-	padding: 1rem;
+	padding: 0.1rem;
 	margin-bottom: 3rem;
 	transition: all 0.3s;
 }
