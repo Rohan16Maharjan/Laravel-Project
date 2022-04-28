@@ -10,8 +10,9 @@ body,
 input {
 	font-family: 'Poppins', sans-serif;
 }
+/* nav */
 .container-box {
-	background-color: #000;
+	background-color: black;
 	max-width: 100%;
 	/* padding: 1rem 2rem; */
 	padding: 0 0 0 2rem;
@@ -42,6 +43,7 @@ a:hover {
 	color: rgb(64, 255, 64);
 }
 
+/* login */
 .container {
 	position: relative;
 	width: 100%;
@@ -100,7 +102,7 @@ form.sign-in-form {
 .input-field {
 	max-width: 380px;
 	width: 100%;
-	background-color: #f0f0f0;
+	background-color: #b3b0b0;
 	margin: 10px 0;
 	height: 55px;
 	border-radius: 55px;
@@ -113,7 +115,7 @@ form.sign-in-form {
 .input-field i {
 	text-align: center;
 	line-height: 55px;
-	color: #acacac;
+	color: #3c3939;
 	transition: 0.5s;
 	font-size: 1.1rem;
 }
@@ -129,7 +131,7 @@ form.sign-in-form {
 }
 
 .input-field input::placeholder {
-	color: #aaa;
+	color: rgb(73, 71, 71);
 	font-weight: 500;
 }
 
@@ -177,6 +179,23 @@ form.sign-in-form {
 	cursor: pointer;
 	transition: 0.5s;
 }
+.btntransparent {
+	width: 150px;
+	background-color: grey;
+	border: none;
+	outline: none;
+	height: 49px;
+	border-radius: 49px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 10px 0;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.btntransparent:hover {
+	background-color: #20dbc2;
+}
 
 .btn:hover {
 	background-color: #20dbc2;
@@ -199,7 +218,7 @@ form.sign-in-form {
 	top: -10%;
 	right: 48%;
 	transform: translateY(-50%);
-	background-image: linear-gradient(-45deg, #4481eb 0%, grey 100%);
+	background-image: linear-gradient(-45deg, black 0%, grey 100%);
 	transition: 1.8s ease-in-out;
 	border-radius: 50%;
 	z-index: 6;
@@ -265,7 +284,7 @@ form.sign-in-form {
 footer {
 	padding: 0 5rem 0 5rem;
 	background-color: black;
-	margin-top: 0px;
+	margin-top: 5px;
 }
 .ff {
 	display: flex;
@@ -452,6 +471,30 @@ footer {
 		bottom: 28%;
 		left: 50%;
 	}
+}
+
+/* footer */
+footer {
+	padding: 0 5rem 0 5rem;
+	background-color: #000;
+}
+.ff {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+.copy {
+	color: #fff;
+	font-size: 1.8rem;
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+.follow {
+	font-size: 1.8rem;
 }
 
 .tw:hover {
